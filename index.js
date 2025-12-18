@@ -8,5 +8,6 @@ import {name as appName} from './app.json';
 import FlexboxLayoutExample from "./flexboxlayout";
 import FlexBoxMainAxisAlignment from "./FlexBoxMainAxisAlignment";
 import ReactnativeStyleExample from "./StylingReactnative";
+import TypoGraphyExample from "./TypoGraphyExample";
 
-AppRegistry.registerComponent(appName, () => ReactnativeStyleExample);
+AppRegistry.registerComponent(appName, () => TypoGraphyExample);
