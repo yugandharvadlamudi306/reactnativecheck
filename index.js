@@ -11,5 +11,6 @@ import ReactnativeStyleExample from "./StylingReactnative";
 import TypoGraphyExample from "./TypoGraphyExample";
 import PositioningExample from "./Positioning example";
 import BorderAndRadious from "./BorderAndRadious";
+import ImageStyling from "./ImagesStyling";
 
-AppRegistry.registerComponent(appName, () => BorderAndRadious);
+AppRegistry.registerComponent(appName, () => ImageStyling);
