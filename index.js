@@ -10,5 +10,6 @@ import FlexBoxMainAxisAlignment from "./FlexBoxMainAxisAlignment";
 import ReactnativeStyleExample from "./StylingReactnative";
 import TypoGraphyExample from "./TypoGraphyExample";
 import PositioningExample from "./Positioning example";
+import BorderAndRadious from "./BorderAndRadious";
 
-AppRegistry.registerComponent(appName, () => PositioningExample);
+AppRegistry.registerComponent(appName, () => BorderAndRadious);
