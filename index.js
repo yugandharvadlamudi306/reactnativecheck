@@ -12,5 +12,6 @@ import TypoGraphyExample from "./TypoGraphyExample";
 import PositioningExample from "./Positioning example";
 import BorderAndRadious from "./BorderAndRadious";
 import ImageStyling from "./ImagesStyling";
+import ConstLetVarExamples from "./ConstLetVarExamples";
 
-AppRegistry.registerComponent(appName, () => ImageStyling);
+AppRegistry.registerComponent(appName, () => ConstLetVarExamples);
