@@ -13,5 +13,6 @@ import PositioningExample from "./Positioning example";
 import BorderAndRadious from "./BorderAndRadious";
 import ImageStyling from "./ImagesStyling";
 import ConstLetVarExamples from "./ConstLetVarExamples";
+import ArrayMethodsExample from "./ArrayMethodsExample";
 
-AppRegistry.registerComponent(appName, () => ConstLetVarExamples);
+AppRegistry.registerComponent(appName, () => ArrayMethodsExample);
