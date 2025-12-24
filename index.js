@@ -14,5 +14,6 @@ import BorderAndRadious from "./BorderAndRadious";
 import ImageStyling from "./ImagesStyling";
 import ConstLetVarExamples from "./ConstLetVarExamples";
 import ArrayMethodsExample from "./ArrayMethodsExample";
+import PromieseExample from "./PromiesExample";
 
-AppRegistry.registerComponent(appName, () => ArrayMethodsExample);
+AppRegistry.registerComponent(appName, () => PromieseExample);
