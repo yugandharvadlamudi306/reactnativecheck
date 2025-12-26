@@ -15,5 +15,6 @@ import ImageStyling from "./ImagesStyling";
 import ConstLetVarExamples from "./ConstLetVarExamples";
 import ArrayMethodsExample from "./ArrayMethodsExample";
 import PromieseExample from "./PromiesExample";
+import AsynAwait from "./AsynAwait";
 
-AppRegistry.registerComponent(appName, () => PromieseExample);
+AppRegistry.registerComponent(appName, () => AsynAwait);
