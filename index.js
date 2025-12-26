@@ -16,5 +16,6 @@ import ConstLetVarExamples from "./ConstLetVarExamples";
 import ArrayMethodsExample from "./ArrayMethodsExample";
 import PromieseExample from "./PromiesExample";
 import AsynAwait from "./AsynAwait";
+import FunctionalComponents from "./FunctionalComponents";
 
-AppRegistry.registerComponent(appName, () => AsynAwait);
+AppRegistry.registerComponent(appName, () => FunctionalComponents);
