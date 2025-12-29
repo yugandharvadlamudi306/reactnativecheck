@@ -1,9 +1,8 @@
-
 import {Button, Text, View} from "react-native";
+import {useState} from "react";
 
 function FunctionalComponents() {
-    const propPress = ()=>
-    {
+    const propPress = () => {
         console.log("Hello")
     }
     return (
@@ -16,6 +15,9 @@ function FunctionalComponents() {
             <ArrayPropsExample skills={['a', 'b', 'c']}/>// passing array as props
             <ObjectPropsExample userObj={{name: 'yugandhar obj', age: 34}}/>// passing object as props
             <MyPropsFuction propPress={propPress}/>// passing function as props
+            <MystatesExample/> // state example
+            <MyEventHandle/>
+            <MyEventConditionRenderling/>
         </View>
     )
 }
@@ -70,5 +72,41 @@ const MyPropsFuction = ({propPress}) => {
         <Button title="Hello" onPress={propPress}/>
     </View>)
 }
-
+// Using States example
+const MystatesExample = () => {
+    const [count, setCount] = useState(0);
+    return (
+        <View>
+            <Text> {count}</Text>
+            <Button title="Increase" onPress={() => {
+                setCount((preCount) => {
+                    return preCount = preCount + 1
+                })
+            }}/>
+        </View>
+    )
+}
+const MyEventHandle = () => {
+    const onPress = () => {
+        console.log("onPress")
+    }
+    return (
+        <View>
+            <Text onPress={onPress}> press</Text>
+        </View>
+    )
+}
+const MyEventConditionRenderling = () => {
+    const [isLoggedIn, setIsLoggedIn] = useState(false)
+    return (
+        <View>
+            <Button title={isLoggedIn ? 'LogOut' : 'LogIn'} onPress={()=>{
+                setIsLoggedIn((prevState)=>{
+                  return    !prevState
+                })
+            }}/>
+            {isLoggedIn? <Text>Hello welcome</Text>: <Text>Please log in</Text>}
+        </View>
+    )
+}
 export default FunctionalComponents
