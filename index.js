@@ -17,5 +17,6 @@ import ArrayMethodsExample from "./ArrayMethodsExample";
 import PromieseExample from "./PromiesExample";
 import AsynAwait from "./AsynAwait";
 import FunctionalComponents from "./FunctionalComponents";
+import StatesExample from "./SatesExample";
 
-AppRegistry.registerComponent(appName, () => FunctionalComponents);
+AppRegistry.registerComponent(appName, () => StatesExample);
