@@ -18,5 +18,6 @@ import PromieseExample from "./PromiesExample";
 import AsynAwait from "./AsynAwait";
 import FunctionalComponents from "./FunctionalComponents";
 import StatesExample from "./SatesExample";
+import StackNavitaionExample from "./StackNavitaionExample";
 
-AppRegistry.registerComponent(appName, () => StatesExample);
+AppRegistry.registerComponent(appName, () => StackNavitaionExample);
