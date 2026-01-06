@@ -20,5 +20,6 @@ import FunctionalComponents from "./FunctionalComponents";
 import StatesExample from "./SatesExample";
 import StackNavitaionExample from "./StackNavitaionExample";
 import UseStateEx from "./states/UseStateExample";
+import ParentStateUplift from "./stateuplifting/ParentState";
 
-AppRegistry.registerComponent(appName, () => UseStateEx);
+AppRegistry.registerComponent(appName, () => ParentStateUplift);

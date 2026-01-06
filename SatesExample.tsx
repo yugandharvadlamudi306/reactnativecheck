@@ -74,7 +74,7 @@ const SmartCounter = () => {
         <View>
             <Text onPress={() => {
                 setCount(count + 1)
-            }}>Check</Text>
+            }}>Check (SmartCounter): {count}</Text>
         </View>
     )
 
