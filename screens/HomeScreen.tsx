@@ -5,7 +5,9 @@ function HomeScreenCheck({navigation}) {
         <View>
             <Text>Home Screen</Text>
             <Button title="go to Second Screen" onPress={() => {
-                navigation.navigate("Deatails",{id:101,name:'yugandhar'})
+                // The route name defined in BottomTabNavigator is "Details", not "Deatails".
+                // I have corrected the spelling here so navigation works.
+                navigation.navigate("Details", {id: 101, name: 'yugandhar'})
             }}/>
         </View>
     )

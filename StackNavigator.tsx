@@ -8,7 +8,8 @@ const StackNavigator = () => {
     return (
         <Stack.Navigator initialRouteName="Home">
             <Stack.Screen name="Home" component={HomeScreenCheck}/>
-            <Stack.Screen name="Deatails" component={DetailsScreen}/>
+            {/* Fixed typo: "Deatails" -> "Details" */}
+            <Stack.Screen name="Details" component={DetailsScreen}/>
         </Stack.Navigator>
     )
 }
