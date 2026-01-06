@@ -19,5 +19,6 @@ import AsynAwait from "./AsynAwait";
 import FunctionalComponents from "./FunctionalComponents";
 import StatesExample from "./SatesExample";
 import StackNavitaionExample from "./StackNavitaionExample";
+import UseStateEx from "./states/UseStateExample";
 
-AppRegistry.registerComponent(appName, () => StackNavitaionExample);
+AppRegistry.registerComponent(appName, () => UseStateEx);
