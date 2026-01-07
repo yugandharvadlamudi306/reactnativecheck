@@ -21,5 +21,8 @@ import StatesExample from "./SatesExample";
 import StackNavitaionExample from "./StackNavitaionExample";
 import UseStateEx from "./states/UseStateExample";
 import ParentStateUplift from "./stateuplifting/ParentState";
+import ContextApiChecking from "./contextapi/ContextApiChecking";
+import ContextProvider from "./contextapi/NameContextProviderExample";
+import CounterContextProvider from "./contextapi/CounterContextProvider";
 
-AppRegistry.registerComponent(appName, () => ParentStateUplift);
+AppRegistry.registerComponent(appName, () => CounterContextProvider);
