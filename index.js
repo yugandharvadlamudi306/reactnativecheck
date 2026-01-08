@@ -24,5 +24,7 @@ import ParentStateUplift from "./stateuplifting/ParentState";
 import ContextApiChecking from "./contextapi/ContextApiChecking";
 import ContextProvider from "./contextapi/NameContextProviderExample";
 import CounterContextProvider from "./contextapi/CounterContextProvider";
+import ZustandCounterScreen from "./zustandapi/zustandcomponent";
+import ZuStandNavigationContainer from "./zustandapi/LoginZuStandNavigationContainer";
 
-AppRegistry.registerComponent(appName, () => CounterContextProvider);
+AppRegistry.registerComponent(appName, () => ZuStandNavigationContainer);
