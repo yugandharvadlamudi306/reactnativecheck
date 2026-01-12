@@ -26,5 +26,7 @@ import ContextProvider from "./contextapi/NameContextProviderExample";
 import CounterContextProvider from "./contextapi/CounterContextProvider";
 import ZustandCounterScreen from "./zustandapi/zustandcomponent";
 import ZuStandNavigationContainer from "./zustandapi/LoginZuStandNavigationContainer";
+import FetchApi from "./apiintegration/FetchApiIntegration";
+import FetchApiPutApiCall from "./apiintegration/FetchApiPutApiCall";
 
-AppRegistry.registerComponent(appName, () => ZuStandNavigationContainer);
+AppRegistry.registerComponent(appName, () => FetchApiPutApiCall);
