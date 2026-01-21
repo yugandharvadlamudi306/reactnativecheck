@@ -28,5 +28,9 @@ import ZustandCounterScreen from "./zustandapi/zustandcomponent";
 import ZuStandNavigationContainer from "./zustandapi/LoginZuStandNavigationContainer";
 import FetchApi from "./apiintegration/FetchApiIntegration";
 import FetchApiPutApiCall from "./apiintegration/FetchApiPutApiCall";
+import getUsers from "./apiintegration/axion/BasicAxiosRequest";
+import AxionsApi from "./apiintegration/axion/AxiosApiComponent";
+import PostApiAxionCompoent from "./apiintegration/axion/PostApiComponent";
 
-AppRegistry.registerComponent(appName, () => FetchApiPutApiCall);
+AppRegistry.registerComponent(appName, () => PostApiAxionCompoent
+);
