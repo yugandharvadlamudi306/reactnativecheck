@@ -31,6 +31,10 @@ import FetchApiPutApiCall from "./apiintegration/FetchApiPutApiCall";
 import getUsers from "./apiintegration/axion/BasicAxiosRequest";
 import AxionsApi from "./apiintegration/axion/AxiosApiComponent";
 import PostApiAxionCompoent from "./apiintegration/axion/PostApiComponent";
+import PutApiAxiosComponent from "./apiintegration/axion/PutApiAxiosComponent";
+import DeleteAxionsComponent from "./apiintegration/axion/DeleteAxionsComponent";
+import AxiosHeaderUserComponents from "./apiintegration/axion/AxiosHeaderUserComponents";
+import PostRequestHeaderComponent from "./apiintegration/axion/PostRequestHeaderComponent";
 
-AppRegistry.registerComponent(appName, () => PostApiAxionCompoent
+AppRegistry.registerComponent(appName, () => PostRequestHeaderComponent
 );
