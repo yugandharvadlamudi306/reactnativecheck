@@ -35,6 +35,8 @@ import PutApiAxiosComponent from "./apiintegration/axion/PutApiAxiosComponent";
 import DeleteAxionsComponent from "./apiintegration/axion/DeleteAxionsComponent";
 import AxiosHeaderUserComponents from "./apiintegration/axion/AxiosHeaderUserComponents";
 import PostRequestHeaderComponent from "./apiintegration/axion/PostRequestHeaderComponent";
+import LocationPermissionComponent from "./LocationPermissionComponent";
+import UseReducerExample from "./UseReducerExample";
 
-AppRegistry.registerComponent(appName, () => PostRequestHeaderComponent
+AppRegistry.registerComponent(appName, () => UseReducerExample
 );
